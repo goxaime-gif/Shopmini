@@ -1,0 +1,63 @@
+export const INITIAL_PRODUCTS = [
+  {
+    id: 1,
+    name: "Laptop",
+    category: "Computers",
+    price: 650,
+    rating: 4.8,
+    reviews: 124,
+    description: "High performance Intel Core i7 laptop with 16GB RAM and 512GB SSD. Perfect for work, study, and coding.",
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80",
+    inStock: true,
+  },
+  {
+    id: 2,
+    name: "Mouse",
+    category: "Accessories",
+    price: 15,
+    rating: 4.6,
+    reviews: 89,
+    description: "Ergonomic 2.4GHz wireless optical mouse with quiet click and high precision sensor.",
+    image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=600&q=80",
+    inStock: true,
+  },
+  {
+    id: 3,
+    name: "Keyboard",
+    category: "Accessories",
+    price: 25,
+    rating: 4.7,
+    reviews: 156,
+    description: "RGB backlit mechanical gaming keyboard with responsive tactile switches and durable aluminum frame.",
+    image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+    inStock: true,
+  },
+  {
+    id: 4,
+    name: "Monitor",
+    category: "Displays",
+    price: 120,
+    rating: 4.9,
+    reviews: 95,
+    description: "27-inch Full HD (1080p) IPS bezel-less monitor with 100Hz refresh rate and eye-care blue light filter.",
+    image: "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=600&q=80",
+    inStock: true,
+  },
+];
+
+export const SHIPPING_OPTIONS = [
+  {
+    id: "free",
+    name: "Free Shipping",
+    duration: "7-20 Days",
+    price: 0,
+    description: "Standard postal delivery",
+  },
+  {
+    id: "express",
+    name: "Express Shipping",
+    duration: "1-3 Days",
+    price: 9,
+    description: "Fast courier delivery with tracking",
+  },
+];
